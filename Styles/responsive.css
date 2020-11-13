@@ -1,0 +1,358 @@
+@media screen and (max-width:400px) {
+
+    .logo {
+        height:120px;
+        width:120px;
+    }
+    
+    .header {
+        font-size:30px
+    }
+
+    .header2 {
+        font-size:16px;
+    }
+
+    .nav-link {
+        font-size: 12px;
+    }
+
+    .author-photo {
+        height:120px;
+        width:120px;
+    }
+
+    .author-caption {
+        font-size:20px;
+    }
+
+    .author-text {
+        font-size:18px;
+    }
+
+    .section-header1 {
+        font-size:30px
+    }
+
+    .section-header2 {
+        font-size:24px;
+    }
+
+    .section-text {
+        font-size:18px;
+    }
+
+    .image-caption {
+        font-size: 20px;
+    }
+
+    .banner {
+        display:none;
+    }
+
+    .section-image {
+        display: none;
+    }
+
+    .email-header {
+        font-size:18px;
+    }
+
+    .email-section {
+        min-height: 300px;
+    }
+
+    .input {
+        font-size:7px;
+        width:100%;
+    }
+    
+    .label{
+        font-size: 10px;
+        margin-bottom:2px;
+    }
+
+    .email-button {
+        align-self: center;
+        font-size:10px;
+        font-weight: 800;
+        width:100%;
+    }
+
+    .footer-text {
+        font-size:16px; 
+        margin-top:15px;
+    }
+
+    .footer-button {
+        font-size:12px;
+        font-weight: 800;
+    }
+}
+
+@media screen and (min-width:400px) {
+    
+    .logo {
+        height:180px;
+        width:180px;
+    }
+    
+    .header {
+        font-size:40px
+    }
+
+    .header2 {
+        font-size:22px;
+    }
+
+    .nav-link {
+        font-size: 15px;
+    }
+
+    .author-photo {
+        height:150px;
+        width:150px;
+    }
+
+    .author-caption {
+        font-size:18px;
+    }
+
+    .author-text {
+        font-size:16px;
+    }
+
+    .section-header1 {
+        font-size:36px
+    }
+
+    .section-header2 {
+        font-size:24px;
+    }
+
+    .section-text {
+        font-size:16px;
+    }
+
+    .image-caption {
+        font-size: 16px;
+    }
+
+    .banner {
+        display:flex;
+    }
+
+    .card-item {
+        max-width: 475px;
+        height: auto;
+    }
+
+    .section-image {
+        display: block;
+    }
+
+    .email-header {
+        font-size:24px;
+    }
+
+    .email-section {
+        min-height: 400px;
+    }
+
+    .input {
+        font-size:12px;
+        width:100%;
+        border-radius: 3px;
+    }
+    
+    .label{
+        font-size: 16px;
+        margin-bottom:2px;
+    }
+
+    .email-button {
+        align-self: center;
+        font-size:18px;
+        font-weight: 800;
+        width:100%;
+    }
+
+    .footer-text {
+        font-size:16px; 
+        margin-top:15px;
+        font-weight: 800;
+    }
+
+    .footer-button {
+        font-size:18px;
+        font-weight: 800;
+    }
+}
+
+@media screen and (min-width:800px) {
+         
+    .logo {
+        height:240px;
+        width:240px;
+    }
+    
+    .header {
+        font-size:42px
+    }
+
+    .header2 {
+        font-size:24px;
+    }
+
+    .nav-link {
+        font-size: 18px;
+    }
+
+    .author-photo {
+        height:200px;
+        width:200px;
+    }
+
+    .author-caption {
+        font-size:24px;
+    }
+
+    .author-text {
+        font-size:18px;
+    }
+
+    .card-item {
+        max-width: 525px;
+        height: auto;
+    }
+
+    .section-header1 {
+        font-size:36px
+    }
+
+    .section-header2 {
+        font-size:24px;
+    }
+
+    .section-text {
+        font-size:18px;
+    }
+
+    .image-caption {
+        font-size: 18px;
+    }
+
+    .section-image {
+        display: block;
+    }
+
+    .email-header {
+        font-size:26px;
+    }
+
+    .email-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+        min-height: 400px;
+        min-width:750px;
+    }
+
+    .input {
+        align-self: center;
+        font-size:14px;
+        width:80%;
+        border-radius: 3px;
+    }
+    
+    .label{
+        align-self: center;
+        font-size: 18px;
+        margin-bottom:2px;
+    }
+
+    .email-button {
+        align-self: center;
+        font-size:22px;
+        font-weight: 800;
+        width:100%;
+    }
+
+    .blog-footer {
+        margin: auto;
+        min-width: 800px;
+        }
+
+    .footer-flexbox {
+        align-self: center;
+    }
+
+    .footer-text {
+        font-size:18px; 
+        margin-top:15px;
+        font-weight: 800;
+    }
+
+    .footer-button {
+        font-size:20x;
+        font-weight: 800;
+    }
+}
+@media screen and (min-width:1200px) {
+
+    .logo {
+        height:400px;
+        width:400px;
+    }
+        
+    .header {
+       font-size:52px
+    }
+    
+    .header2 {
+        font-size:40px;
+    }
+    
+    .nav-link {
+        font-size: 22px;
+    }   
+
+    .author-photo {
+        height:400px;
+        width:400px;
+    }
+    .card-item {
+        max-width: 575px;
+        height: auto;
+    }
+}
+
+@media screen and (min-width:1600px) {
+
+    .logo {
+        height:500px;
+        width:500px;
+    }
+        
+    .header {
+       font-size:62px
+    }
+    
+    .header2 {
+        font-size:44px;
+    }
+    
+    .nav-link {
+        font-size: 24px;
+    }
+    
+    .author-photo {
+        height:500px;
+        width:500px;
+    }
+    .card-item {
+        max-width: 600px;
+        height: auto;
+    }
+}

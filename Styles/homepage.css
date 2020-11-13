@@ -1,0 +1,79 @@
+.homepage-grid {
+    display:grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 100vw;
+    grid-template-areas:
+    "cards" 
+    "email"
+    "footer";
+    grid-gap:20px;
+}
+
+.home-grid-item {
+    border:2px solid cadetblue;
+    border-radius:3px;
+    box-shadow: 3px 3px 3px rgb(107, 85, 100);
+}
+
+.card-grid {
+    grid-area:cards;
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows:auto;
+    grid-template-areas: 
+    "card1"
+    "card2"
+    "card3"
+    "card4";
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+}
+
+.card-flexbox {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    border:1px solid red;
+}
+
+.card-item {
+    border:2px solid cadetblue;
+    width: 90%;
+    height: auto;
+    border-radius:3px;
+    box-shadow: 2px 2px 2px rgb(223, 24, 160);
+    transition: transform .3s ease;
+}
+
+.card-item:hover {
+    transform: scale(1.1);
+}
+
+.card1 {
+    grid:card1;
+    background-image: url("/Images/camping-logo.png");
+    transition: transform .3s ease;
+}
+
+.card2 {
+    grid:card2;
+    background-image: url("fishing-logo.png");
+    transition: transform .3s ease;
+}
+
+.card3 {
+    grid:card3;
+    background-image: url("hiking-logo.png");
+    transition: transform .3s ease;
+}
+
+.card4 {
+    grid:card4;
+    background-image: url("fitness-logo.png");
+    transition: transform .3s ease;
+}

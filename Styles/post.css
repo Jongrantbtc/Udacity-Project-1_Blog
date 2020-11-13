@@ -1,0 +1,144 @@
+.post-grid {
+    display:grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 90vw;
+    grid-template-areas:
+    "author"
+    "banner"
+    "section1"
+    "section2"
+    "section3"
+    "email"
+    "footer";
+    grid-gap:20px;
+}
+
+.banner {
+    grid-area: banner;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    margin: 10px auto;
+    border-radius:3px;
+    box-shadow: 3px 3px 3px rgb(107, 85, 100);
+    transition: transform .3s ease;
+}
+
+.banner-img:hover {
+    transform: scale(1.1);
+}
+
+.author {
+    grid-area:author;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 2px solid rgb(107, 85, 100);
+    box-shadow: 5px 5px 5px 5px rgb(107, 85, 100);
+    margin: 10px auto;
+    font-family: "Roboto";
+}
+
+.author-photo {
+    display:inline-block;
+    background-image: url(../Images/author-image.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    margin:10px 10px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 5px 5px rgb(107, 85, 100);
+    transition: transform .3s ease;
+}
+
+.author-photo:hover {
+    transform: scale(1.1);
+}
+
+.author-caption {
+    font-family:"roboto";
+    font-variant: small-caps;
+    letter-spacing: 3px;
+    margin-bottom:30px
+}
+
+.author-text {
+    margin:10px;
+    font-size: 18px;
+    font-family: "roboto";
+}
+
+.section {
+    font-family: "roboto";
+    border:2px solid rgb(107, 85, 100);
+    border-radius:3px;
+    box-shadow: 3px 3px 3px rgb(107, 85, 100);
+    text-align:center;
+    line-height: 50px;
+    margin: 20px auto;
+    padding:20px;
+}
+
+.section-header1 {
+    font-variant: small-caps;
+    margin-top:20px;
+    font-family: "roboto";
+    font-size:38px;
+    letter-spacing: 4px;
+}
+
+.section-header2 {
+    font-variant: small-caps;
+    margin:10px;
+    font-family: "roboto";
+    font-size:28px;
+    letter-spacing: 2px;
+}
+
+.section-text {
+    font-size:16px;
+    font-family: "roboto";
+}
+
+.section-line {
+    margin:auto;
+    width:50%;
+    height: auto;
+    border:2px solid rgb(107, 85, 100);
+    border-radius:3px;
+    box-shadow: 3px 3px 3px rgb(107, 85, 100);
+}
+
+.section-image {
+    display: block;
+    margin:auto;
+    width: 60%;
+    height: auto;
+    border:2px solid rgb(107, 85, 100);
+    border-radius:3px;
+    box-shadow: 3px 3px 3px rgb(107, 85, 100);
+}
+
+.section1 {
+    grid-area:section1;
+}
+
+.section2 {
+    grid-area:section2;
+}
+
+.section3 {
+    grid-area:section3;
+}
+
+.image-caption {
+    font-size:16px;
+    font-family: "roboto";
+}
+
